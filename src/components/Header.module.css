@@ -1,0 +1,47 @@
+nav.navigation {
+    height: 7.2rem;
+    width: 100%;
+    background-color: var(--cor-de-fundo);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    position: fixed;
+    top: 0;
+    left: 50%;
+    z-index: 1;
+    /* PARA DEIXAR O ELEMENTO NO MEIO DA PAGINA TOTAL */
+    transform: translateX(-50%);
+    /* Voltar o elemento 50% menor  */
+}
+
+nav.navigation .logo path:nth-child(2) {
+    fill: var(--Primary-color);
+}
+
+nav .menu ul {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+
+    height: 7.2rem;
+
+    list-style: none;
+}
+
+nav .menu a {
+    text-decoration: none;
+    color: var(--Dark);
+
+    font-size: 1.6rem;
+    font-weight: 400;
+
+}
+
+
+
+
+
+
+

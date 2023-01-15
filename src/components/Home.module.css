@@ -1,0 +1,83 @@
+section.home {
+
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    gap: 4.8rem;
+}
+
+section {
+    padding-inline: 12.3rem;
+}
+
+
+section.home header {
+    width: 44rem;
+    position: relative;
+}
+
+section.home header {
+    position: relative;
+}
+
+section.home svg {
+    width: calc(34.789rem - 1.1rem);
+    height: 24.227rem;
+
+    margin-top: 10.4rem;
+
+    position: absolute;
+    z-index: 0;
+    right: -2.2rem;
+}
+
+section.home svg rect {
+    fill: var(--second-color);
+}
+
+section.home img {
+    width: 33.5rem;
+
+    border-radius: .4rem;
+
+    margin-top: 14.4rem;
+    position: relative;
+    right: 2.4rem;
+}
+
+section.home svg rect {
+    fill: var(--second-color);
+}
+
+section.home img {
+    width: 37.5rem;
+    margin-top: 22.4rem;
+}
+
+section.home img.background {
+    margin-top: 17.6rem;
+}
+
+section.home .content {
+    width: 39.6rem;
+    height: 24rem;
+
+    margin-block: 25rem 28.1rem;
+}
+
+section.home .content h1 {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 1.2rem;
+
+    font-size: 3.6rem;
+    text-align: left;
+}
+
+section.home .content p {
+    width: 34.7rem;
+    margin: 0;
+    margin-bottom: 2.4rem;
+    font-size: 1.8rem;
+    text-align: left;
+}

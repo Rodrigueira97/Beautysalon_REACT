@@ -1,0 +1,57 @@
+section.contact {
+    height: 58.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 27rem;
+    margin: auto;
+    padding-inline: 12.3rem;
+    border-top: 1px solid var(--Primary-color);
+}
+
+section.contact header {
+    width: 40.4rem;
+    height: 26.3rem;
+}
+
+
+section.contact header h2 {
+    padding: 0;
+    font-size: 3.6rem;
+}
+
+section.contact header p {
+    font-size: 1.8rem;
+    margin-top: 1.6rem;
+    color: var(--text-color-grey);
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+}
+
+section.contact ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 3.5rem;
+    margin-top: 6.6rem;
+}
+
+section.contact li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.4rem;
+}
+
+section.contact Button {
+    display: flex;
+    gap: 1rem;
+    margin-top: 3.2rem;
+}
+
+p {
+    color: var(--text-color-grey);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+}

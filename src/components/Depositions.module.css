@@ -1,0 +1,45 @@
+section.depositions {
+    height: 82.6rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section.depositions {
+    height: 70.3rem;
+    border-top: 1px solid var(--Primary-color);
+}
+
+section.depositions h2 {
+    width: 48.1rem;
+    font-size: 3.6rem;
+    text-align: center;
+    padding-top: 8rem;
+}
+
+section.depositions .testimonial {
+    width: 54.4rem;
+    height: 30.2rem;
+    box-shadow: 0px 0px 12px rgb(0 0 0 / 8%);
+    border-radius: 4px;
+    margin-top: 6.4rem;
+    padding-inline: 3.2rem;
+    padding-top: 3.2rem;
+}
+
+section.depositions .testimonial p {
+    font-family: 'DM Sans', sans-serif;
+    line-height: 2.6rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--Dark);
+}
+
+section.depositions .testimonial .person {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+    color: var(--text-color-grey);
+    margin-top: 2.6rem;
+}

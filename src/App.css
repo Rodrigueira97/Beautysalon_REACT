@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --hue: 270;
+    --Primary-color: hsl(var(--hue), 36%, 57%);
+    --second-color: hsl(var(--hue), 65%, 88%);
+    --Dark: hsl(0, 0%, 0%);
+    --cor-de-fundo: hsl(0, 0%, 98%);
+    --text-color-grey: hsl(0, 0%, 46%);
+    --light-gray: hsl(0, 0%, 89%);
+
+
+
+
+    font-size: 62.5%;
+}

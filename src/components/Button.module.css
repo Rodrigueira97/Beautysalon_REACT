@@ -1,0 +1,22 @@
+.button {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+
+    width: 21.4rem;
+    height: 5.6rem;
+    padding: 1.7rem 3.2rem 1.8rem 3.2rem;
+    border-radius: .4rem;
+    border: none;
+    
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+    background-color: var(--Primary-color);
+    color: var(--cor-de-fundo);
+}
+
+.button:hover {
+    background-color: black;
+    transition: 1s;
+}

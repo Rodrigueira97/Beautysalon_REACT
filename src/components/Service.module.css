@@ -1,0 +1,39 @@
+.service {
+    width: 32.7rem;
+    height: 37.2rem;
+
+    border-bottom: 4px solid var(--Primary-color);
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+
+    background-color: var(--cor-de-fundo);
+
+
+    margin-bottom: 2.4rem;
+
+    text-align: center;
+}
+
+.service img {
+    margin-top: 6.05rem;
+
+}
+
+.service h3 {
+    font-size: 2.651rem;
+    font-weight: 700;
+
+    margin-top: 2.6rem;
+}
+
+div.service p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6rem;
+    width: 26.3rem;
+    margin-top: 1.2rem;
+    margin-bottom: 6.4rem;
+    margin-inline: auto;
+    text-align: center;
+    font-weight: 400;
+    color: var(--text-color-grey);
+    line-height: 2.6rem;
+}

@@ -1,0 +1,59 @@
+section.about {
+    height: 76.6rem;
+
+    padding: 0;
+
+    position: relative;
+    border-top: 1px solid var(--Primary-color);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+
+section.about::before {
+    content: "";
+    /* precisamos adicionar display block e definir umar altura largura para esse conteudo, 
+        e precisa inserir o 'content'*/
+    width: 25.429rem;
+    height: 24rem;
+    top: 18rem;
+    left: 37.2rem;
+
+    background-color: var(--second-color);
+    border-radius: .4rem;
+
+    display: block;
+
+    position: absolute;
+    z-index: -1;
+}
+
+section.about img {
+    margin-top: 10.135rem;
+    width: 33rem;
+
+    margin: 0;
+}
+
+section.about h2 {
+    margin-top: 3.2rem;
+    font-size: 3.6rem;
+    margin: 0;
+}
+
+section.about p {
+    width: 61rem;
+    height: fit-content;
+
+    font-size: 1.6rem;
+    color: var(--text-color-grey);
+
+    line-height: 2.6rem;
+
+    margin-top: 1.6rem;
+    margin: 0;
+
+}

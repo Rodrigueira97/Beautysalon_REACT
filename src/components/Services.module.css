@@ -1,0 +1,41 @@
+section.services {
+    height: 87.1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-top: 1px solid var(--Primary-color);
+    background-color: var(--cor-de-fundo);
+}
+
+section.services h2 {
+    font-size: 3rem;
+    padding-top: 8rem;
+}
+
+section.services p {
+    width: 32.7rem;
+
+    margin-top: 1.6rem;
+    margin-bottom: 6.4rem;
+
+    font-weight: 400;
+
+    color: var(--Dark);
+}
+
+section.services .cards {
+    display: flex;
+    justify-content: center;
+
+    gap: 2rem;
+}
+
+section.services header {
+    text-align: center;
+}
+
+section.services header p {
+    width: 52.3rem;
+    font-size: 1.8rem;
+}
